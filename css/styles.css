@@ -24,11 +24,9 @@ body {
 
 .product-small img {
   transition: transform 0.3s ease-in-out;
-  margin-left: 18px;
 }
 
 .product-small p {
-  margin-left: 12px;
   font-size: 18px;
   font-weight: bold;
   color: #ff6600; /* Màu cam tươi */
