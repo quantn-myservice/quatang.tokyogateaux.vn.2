@@ -145,3 +145,9 @@ body {
     margin-top: 60px;
   }
 }
+
+.btn-form {
+  width: 90% !important;
+  margin: 0 auto;
+  display: block;
+}

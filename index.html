@@ -170,8 +170,12 @@
             <div class="countdown-unit">Phút</div>
             <div class="countdown-unit">Giây</div>
           </div>
-          <div id="additional-info">+ 570 người đã đặt</div>
-          <p>Khách hàng có thể mua trực tiếp từ 7/3/2025 - 8/3/2025</p>
+          <div id="additional-info" style="margin-top: 20px">
+            <p class="fw-bold" style="font-weight: bold; font-size: 30px">
+              + 570 người đã đặt
+            </p>
+          </div>
+          <p>Khách hàng có thể mua trực tiếp từ 6/3/2025 - 8/3/2025</p>
           <button class="btn btn-primary btn-zoom mt-3 btn-lg btn-block">
             Đặt ngay
           </button>
@@ -181,39 +185,56 @@
       <!-- About Us with purchase form -->
       <section class="about-us py-5">
         <div class="container">
-          <h2 class="text-center">Về chúng tôi</h2>
-          <p>
-            Tokyo Gateaux là thương hiệu nổi tiếng với các sản phẩm bánh ngọt và
-            hoa tươi chất lượng cao.
-          </p>
-          <form>
-            <div class="form-group">
-              <label for="name">Tên của bạn</label>
-              <input
-                type="text"
-                class="form-control"
-                id="name"
-                placeholder="Nhập tên của bạn"
-              />
+          <div class="row">
+            <div class="col-md-6">
+              <form class="">
+                <div class="form-group">
+                  <label for="name">Tên của bạn</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    placeholder="Nhập tên của bạn"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="phone">Số điện thoại</label>
+                  <input
+                    type="tel"
+                    class="form-control"
+                    id="phone"
+                    placeholder="Nhập số điện thoại của bạn"
+                  />
+                </div>
+
+                <button
+                  class="btn btn-primary btn-zoom mt-3 btn-lg btn-block btn-form"
+                >
+                  Đặt ngay
+                </button>
+              </form>
             </div>
-            <div class="form-group">
-              <label for="email">Email</label>
-              <input
-                type="email"
-                class="form-control"
-                id="email"
-                placeholder="Nhập email của bạn"
-              />
+            <div class="col-md-6 text-end">
+              <h2 class="text-center">Về chúng tôi</h2>
+              <p>Tokyo Gâteaux - Tiệm Bánh May Đo</p>
+              <p>CS1: 70B An Dương - Yên Phụ - Tây Hồ - Hà Nội</p>
+              <p>
+                Map:
+                <a href="https://maps.app.goo.gl/txkkWAh7H4HxG6eV6"
+                  >https://maps.app.goo.gl/txkkWAh7H4HxG6eV6</a
+                >
+              </p>
+              <p>CS2: Căn 12 Khu A Trung Tâm Thương Mại TSQ, Mộ Lao, Hà Đông</p>
+              <p>
+                Map:
+                <a href="https://maps.app.goo.gl/habZEtyKCT5usbfE6"
+                  >https://maps.app.goo.gl/habZEtyKCT5usbfE6</a
+                >
+              </p>
+              <p>Hotline: <a href="tel:0902040990">090.2040.990</a></p>
+              <p>Email: admin@tokyogateaux.vn</p>
             </div>
-            <div class="form-group">
-              <label for="product">Sản phẩm</label>
-              <select class="form-control" id="product">
-                <option>Bánh ngọt</option>
-                <option>Hoa tươi</option>
-              </select>
-            </div>
-            <button type="submit" class="btn btn-primary">Mua ngay</button>
-          </form>
+          </div>
         </div>
       </section>
     </main>
