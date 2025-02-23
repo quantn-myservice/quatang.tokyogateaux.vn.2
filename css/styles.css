@@ -24,9 +24,11 @@ body {
 
 .product-small img {
   transition: transform 0.3s ease-in-out;
+  margin-left: 18px;
 }
 
 .product-small p {
+  margin-left: 12px;
   font-size: 18px;
   font-weight: bold;
   color: #ff6600; /* Màu cam tươi */
@@ -125,17 +127,21 @@ body {
 
 /* Beautiful button with zoom effect */
 .btn-zoom {
-  display: inline-block;
-  padding: 10px 20px;
-  font-size: 1.2em;
-  font-weight: bold;
+  padding: 10px 20px !important;
+  font-size: 1.2em !important;
+  font-weight: bold !important;
   color: #fff !important;
   background-color: #ff3399 !important; /* Pink background */
-  border-color: #ff3399 !important;
-  border: none;
-  border-radius: 5px;
-  text-decoration: none;
-  width: 100px; /* Increased width */
+  border: none !important;
+  border-radius: 5px !important;
+  text-decoration: none !important;
   transition: transform 0.3s ease-in-out, background-color 0.3s;
   animation: zoomInOut 3s infinite; /* Zoom in and out effect */
+}
+
+/* Responsive margin-top adjustment for mobile devices */
+@media (max-width: 767px) {
+  .products .col-md-6.d-flex.align-items-center {
+    margin-top: 60px;
+  }
 }
