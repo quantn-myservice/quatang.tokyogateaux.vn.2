@@ -122,3 +122,20 @@ body {
     transform: scale(1);
   }
 }
+
+/* Beautiful button with zoom effect */
+.btn-zoom {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #fff !important;
+  background-color: #ff3399 !important; /* Pink background */
+  border-color: #ff3399 !important;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  width: 100px; /* Increased width */
+  transition: transform 0.3s ease-in-out, background-color 0.3s;
+  animation: zoomInOut 3s infinite; /* Zoom in and out effect */
+}
