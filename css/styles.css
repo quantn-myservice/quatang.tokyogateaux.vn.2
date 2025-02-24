@@ -140,7 +140,14 @@ body {
 /* Responsive margin-top adjustment for mobile devices */
 @media (max-width: 767px) {
   .products .col-md-6.d-flex.align-items-center {
+    margin-top: 40px;
+  }
+  .col-right {
     margin-top: 60px;
+  }
+  .banner-2 {
+    margin-top: -60px;
+    margin-bottom: -30px;
   }
 }
 
