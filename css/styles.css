@@ -142,6 +142,9 @@ body {
   .products .col-md-6.d-flex.align-items-center {
     margin-top: 60px;
   }
+  .col-right {
+    margin-top: 40px;
+  }
 }
 
 .btn-form {
@@ -186,4 +189,26 @@ body {
   left: 30px;
   bottom: 120px;
   width: 150px !important;
+}
+
+.branch-name {
+  font-family: "Playfair Display", serif; /* Font chữ sang trọng */
+  text-transform: uppercase; /* Chữ in hoa */
+  letter-spacing: 2px; /* Giãn cách chữ */
+  font-weight: bold;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3); /* Đổ bóng mềm mại */
+  padding: 10px;
+}
+
+h4.branch-name {
+  font-size: 32px; /* Kích thước lớn hơn */
+  color: #d4af37; /* Màu vàng gold */
+  border-bottom: 3px solid #d4af37; /* Gạch chân vàng gold */
+  padding-bottom: 5px;
+}
+
+h5.branch-name {
+  font-size: 24px;
+  color: #8b5e3b; /* Màu nâu bánh ngọt */
+  margin-top: 5px;
 }

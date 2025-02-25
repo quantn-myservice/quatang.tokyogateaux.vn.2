@@ -32,14 +32,14 @@ document.getElementById("myForm").addEventListener("submit", function (event) {
     .catch((error) => alert("Lỗi: " + error));
 });
 
-document.querySelector(".btn-primary").addEventListener("click", function () {
+document.querySelector(".btn-order").addEventListener("click", function () {
   const targetButton = document.querySelector(".btn-form"); // Tìm nút thứ 2
   if (targetButton) {
     targetButton.scrollIntoView({ behavior: "smooth" }); // Cuộn xuống mượt
   }
 });
 
-document.querySelector(".btn-banner").addEventListener("click", function () {
+document.querySelector(".btn-order").addEventListener("click", function () {
   const targetButton = document.querySelector(".btn-form"); // Tìm nút thứ 2
   if (targetButton) {
     targetButton.scrollIntoView({ behavior: "smooth" }); // Cuộn xuống mượt
