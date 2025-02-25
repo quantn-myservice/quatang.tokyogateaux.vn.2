@@ -28,7 +28,11 @@ document.getElementById("myForm").addEventListener("submit", function (event) {
     }
   )
     .then((response) => response.json())
-    .then((data) => alert("Gửi thành công!"))
+    .then((data) =>
+      alert(
+        "Gửi thông tin thành công! Bộ phận chăm sóc khách hàng sẽ liên hệ với bạn trong thời gian sớm nhất. Quý khách cần đặt gấp vui lòng liên hệ Hotline: 090.2040.990"
+      )
+    )
     .catch((error) => alert("Lỗi: " + error));
 });
 
