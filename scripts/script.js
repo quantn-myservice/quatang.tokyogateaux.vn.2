@@ -4,6 +4,9 @@ document.getElementById("myForm").addEventListener("submit", function (event) {
   // Lấy giá trị từ form
   const name = document.getElementById("name").value.trim();
   const phone = document.getElementById("phone").value.trim();
+  const address = document.getElementById("address").value.trim();
+  const date = document.getElementById("date").value.trim();
+  const quantity = document.getElementById("quantity").value.trim();
 
   // Điều kiện kiểm tra
   if (!name || !phone) {
@@ -20,11 +23,11 @@ document.getElementById("myForm").addEventListener("submit", function (event) {
 
   // Gửi dữ liệu nếu hợp lệ
   fetch(
-    "https://script.google.com/macros/s/AKfycbyFwdQE_PrZyzQOE7m6WlDHkvVdgdowkoDH-A2AmpPDk42chx1fY5DXCo82882HeIHL/exec",
+    "https://script.google.com/macros/s/AKfycbw1wLruorjZFEEuBmdEFWZmDMbvC6VJVEsS0q22MfNJIRQLoZPNudTNRlD-bB7HptXd/exec",
     {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: JSON.stringify({ name, phone }),
+      body: JSON.stringify({ name, phone, address, date, quantity }),
     }
   )
     .then((response) => response.json())
